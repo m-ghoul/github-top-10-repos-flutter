@@ -1,0 +1,17 @@
+### FLUTTER NOTES ###
+
+To create a flutter project, type
+flutter create project_name
+
+To load images into your flutter project
+1. Create a folder in the project directory called assets
+2. Create a folder in assets called images
+3. Add images inside the images folder
+4. Define the path to the images folder in pubscpec.yaml as follows:
+-----------------
+assets:
+    - assets/images/filename.type
+-----------------
+NOTE: This has to be done for every picture you use in your flutter application
+5. Display the image in your app using Image.asset('asset_path_goes_here')
+
